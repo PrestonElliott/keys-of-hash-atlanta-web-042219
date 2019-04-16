@@ -1,5 +1,5 @@
 class Hash
   def keys_of(arguments)
-    map {|k, v| arguments.include?(v) ? key:nil}
+    map {|k, v| arguments.include?(v) ? k:nil}
   end
 end
